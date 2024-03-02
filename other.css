@@ -1,0 +1,479 @@
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff
+}
+
+@media print {
+
+  *,
+  :after,
+  :before {
+    text-shadow: none !important;
+    box-shadow: none !important
+  }
+
+  @page {
+    size: a3
+  }
+
+  body {
+    min-width: 992px !important
+  }
+}
+@charset "UTF-8";
+
+body {
+  font-family: Roboto-Regular, sans-serif;
+  font-weight: lighter
+}
+
+.h-100-vh {
+  height: 100vh !important
+}
+
+
+
+.card[eyeez21]:hover {
+  box-shadow: 1px 2px 15px #0003
+}
+
+.card[eyeez21] {
+  box-shadow: 1px 2px 15px #0000001a;
+  transition-duration: .5s
+}
+
+.login-principal[eyeez21] {
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+
+.form-signin[eyeez21] {
+  max-width: 500px;
+  padding: 15px;
+  margin: 0 auto
+}
+
+[eyeez21]::-ms-reveal {
+  display: none !important
+}
+
+.form-signin[eyeez21] .form-signin-heading[eyeez21] {
+  margin-bottom: 100px
+}
+
+.form-signin[eyeez21] .checkbox[eyeez21] {
+  font-weight: 400
+}
+
+.form-signin[eyeez21] .form-control[eyeez21] {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px
+}
+
+.form-signin[eyeez21] .form-control[eyeez21]:focus {
+  z-index: 2
+}
+
+.form-signin[eyeez21] input[eyeez21] {
+  border-radius: 0;
+  margin-bottom: 1.3rem
+}
+
+.form-control[eyeez21]:focus {
+  box-shadow: none
+}
+
+.eyePassAligne[eyeez21] {
+  text-align: right;
+  padding: 10px 20px;
+  display: none;
+  position: absolute;
+  margin: 0px 0 0 calc(100% - 60px);
+  top: 0;
+  z-index: 3
+}
+
+.card[eyeez21] {
+  height: auto
+}
+
+.card-body[eyeez21] {
+  padding: 3rem
+}
+
+.form-signin[eyeez21] .card-link[eyeez21]+.card-link[eyeez21] {
+  margin-left: 8rem
+}
+
+.legales[eyeez21] {
+  font-size: .8rem;
+  margin-top: 100px;
+  color: #909394
+}
+
+.legales[eyeez21] a[eyeez21] {
+  color: #909394;
+  text-decoration: underline
+}
+
+.avatar[eyeez21] {
+  z-index: 10;
+  top: 55px
+}
+
+.avatar[eyeez21] img[eyeez21] {
+  border-radius: 50%
+}
+
+.logocentrado[eyeez21] {
+  width: 300px;
+  margin: auto
+}
+
+.contairner[eyeez21] {
+  width: 50%
+}
+
+.card-footer.text-center[eyeez21] a.card-link[eyeez21] {
+  color: #909394;
+  font-size: .8rem
+}
+
+.help-items[eyeez21] {
+  background-color: #d4d1cb4d;
+  margin: 0
+}
+
+.form-signin[eyeez21] input[eyeez21] {
+  border-radius: 0
+}
+
+.sigButton[eyeez21] {
+  padding: .5rem 1rem;
+  line-height: 1.5;
+  border-radius: .3rem !important
+}
+
+#message[eyeez21] {
+  font-size: .8rem;
+  margin-left: 16px;
+  color: #909394;
+  position: relative
+}
+
+.valid[eyeez21] {
+  color: #0db14b
+}
+
+.valid[eyeez21]:before {
+  position: relative;
+  left: -15px;
+  font-family: ionicons;
+  content: "\f121"
+}
+
+.invalid[eyeez21] {
+  color: #ef413d
+}
+
+.invalid[eyeez21]:before {
+  position: relative;
+  left: -15px;
+  font-family: ionicons;
+  content: "\f129"
+}
+
+.btn-primary[eyeez21] {
+  color: #fff;
+  font-size: 1rem !important
+}
+
+.btn-primary[eyeez21]:disabled {
+  color: #909394
+}
+
+.usuarioEtiqueta[eyeez21] {
+  font-size: 28px;
+  text-transform: none !important
+}
+
+.icono_manito[eyeez21] {
+  cursor: pointer
+}
+
+.login-principal[eyeez21] .login-error-message[eyeez21] {
+  margin-top: 20px;
+  color: #ef413d
+}
+
+.login-principal[eyeez21] .login-ok-message[eyeez21] {
+  margin-top: 20px;
+  color: #0db14b
+}
+
+.card-footer[eyeez21] {
+  margin: 0 !important
+}
+
+.loading-puntitos[eyeez21] {
+  position: absolute;
+  left: 40%;
+  right: 40%;
+  bottom: 15%
+}
+
+.form-check-label[eyeez21] {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  user-select: none
+}
+
+.form-check-label[eyeez21] input[eyeez21] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0
+}
+
+.form-check-label[eyeez21] .texto-check[eyeez21] {
+  font-size: 13px;
+  letter-spacing: -.5px;
+  color: #909394;
+  text-transform: none
+}
+
+.checkmark[eyeez21] {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  border-radius: 2px;
+  border: 1px solid #909394
+}
+
+.form-check-label[eyeez21] input[eyeez21]:checked~.checkmark[eyeez21] {
+  background-color: #fff
+}
+
+.checkmark[eyeez21]:after {
+  content: "";
+  position: absolute;
+  display: none
+}
+
+.form-check-label[eyeez21] input[eyeez21]:checked~.checkmark[eyeez21]:after {
+  display: block
+}
+
+.form-check-label[eyeez21] .checkmark[eyeez21]:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #2196F3;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg)
+}
+
+.bgh[eyeez21] {
+  height: auto !important;
+  min-height: 100%
+}
+
+.teclado-virtual[eyeez21] {
+  float: right;
+  color: #4d4d4d;
+  text-transform: initial;
+  font-family: "Roboto-Regular", Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -.6px;
+  padding-bottom: 5px
+}
+
+.teclado-virtual[eyeez21] a[eyeez21] {
+  vertical-align: middle
+}
+
+.trianguloInclisite[eyeez21] {
+  position: absolute;
+  bottom: 9px;
+  right: 48%;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff
+}
+
+.btn-accesibilidad[eyeez21] {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #0a64b0;
+  position: absolute;
+  z-index: 2;
+  transform: scale(.7) rotate(270deg);
+  top: 8%;
+  left: -73px;
+  padding: 14px 37px;
+  border: none;
+  border-radius: 0 0 21px 21px
+}
+
+@media (max-width: 767px) {
+  .teclado-virtual[eyeez21] {
+    display: none
+  }
+
+  .btn-accesibilidad[eyeez21] {
+    transform: scale(.5) rotate(270deg);
+    left: -84px
+  }
+}
+
+@media (max-width: 470px) {
+  .form-signin[eyeez21] .card-link[eyeez21]+.card-link[eyeez21] {
+    margin-left: 2rem
+  }
+}
+
+@media (max-width: 390px) {
+  .logocentrado[eyeez21] {
+    width: 230px;
+    margin: auto
+  }
+
+  .form-signin[eyeez21] .card-link[eyeez21]+.card-link[eyeez21] {
+    margin: auto
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .form-signin[eyeez21] .card-link[eyeez21]+.card-link[eyeez21] {
+    margin: auto
+  }
+
+  .btn-primary[eyeez21] {
+    font-size: inherit
+  }
+
+  .bgh[eyeez21] {
+    height: auto !important;
+    min-height: 100%
+  }
+}
+
+@media (max-width: 320px) {
+  .card-body[eyeez21] {
+    padding: 3rem 2rem !important
+  }
+}
+
+
+.loading-puntitos {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  background-color: white; /* Cambiar a blanco */
+  opacity: 0;
+}
+
+.dot:nth-child(1) {
+  animation: fade-in-out 0.6s infinite 0.15s;
+}
+
+.dot:nth-child(2) {
+  animation: fade-in-out 0.6s infinite 0.3s;
+}
+
+.dot:nth-child(3) {
+  animation: fade-in-out 0.6s infinite 0.6s;
+}
+
+@keyframes fade-in-out {
+  0% { opacity: 0; transform: scale(0.5); } /* Puntos más pequeños */
+  50% { opacity: 1; transform: scale(1.2); } /* Efecto de agrandamiento */
+  100% { opacity: 0; transform: scale(0.5); } /* Volver a hacer los puntos más pequeños */
+}
+
+
